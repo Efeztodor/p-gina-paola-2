@@ -3,7 +3,7 @@ const FinalCTASection = () => {
     <section className="section-padding bg-gradient-cta text-primary-foreground">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-          Tu proceso de sanación comienza con un mensaje
+          Tu proceso de transformación comienza con un mensaje
         </h2>
         <p className="font-body text-lg opacity-90 mb-10 max-w-xl mx-auto">
           No esperes más para liberarte de lo que te pesa. 
@@ -11,7 +11,7 @@ const FinalCTASection = () => {
         </p>
 
         <a
-          href="https://wa.me/56977929416?text=Hola%20Paola,%20quiero%20comenzar%20mi%20proceso%20de%20sanaci%C3%B3n"
+          href="https://wa.me/56977929416?text=Hola%20Paola,%20quiero%20comenzar%20mi%20proceso%20de%20transformaci%C3%B3n"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-card text-foreground font-body font-bold text-base sm:text-lg px-8 sm:px-10 py-4 sm:py-5 rounded-full shadow-card hover:scale-105 transition-all"

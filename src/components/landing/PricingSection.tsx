@@ -35,7 +35,7 @@ const plans = [
     name: "Pack 5 Sesiones",
     price: "$140.000",
     currency: "CLP",
-    desc: "Para un proceso integral y profundo de sanación.",
+    desc: "Para un proceso integral y profundo de transformación.",
     features: [
       "5 sesiones de 60-90 minutos",
       "Ahorra $35.000",

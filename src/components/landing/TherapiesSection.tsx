@@ -2,7 +2,7 @@ const therapies = [
   {
     abbr: "BR",
     name: "BioReprogramación",
-    desc: "Transforma creencias limitantes y patrones emocionales profundos para reprogramar tu biología y activar tu capacidad natural de sanación.",
+    desc: "Transforma creencias limitantes y patrones emocionales profundos para reprogramar tu biología y activar tu capacidad natural de transformación.",
     color: "bg-lavender-light text-primary",
   },
   {
@@ -14,7 +14,7 @@ const therapies = [
   {
     abbr: "5LB",
     name: "5 Leyes Biológicas",
-    desc: "Comprende cómo tu cuerpo responde a los conflictos emocionales, descubriendo el sentido de cada síntoma y su proceso de sanación natural.",
+    desc: "Comprende cómo tu cuerpo responde a los conflictos emocionales, descubriendo el sentido de cada síntoma y su proceso de transformación natural.",
     color: "bg-gold-light text-accent-foreground",
   },
   {
@@ -40,7 +40,7 @@ const TherapiesSection = () => {
             Mis Terapias
           </span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Caminos hacia tu sanación
+            Caminos hacia tu transformación
           </h2>
           <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
             Cada terapia es un camino único. Juntos encontraremos la que mejor se ajuste a tu proceso.
