@@ -1,3 +1,9 @@
+const courses = [
+  "Confección de tu Árbol Genealógico",
+  "Confección de Árbol de Méritos",
+  "Taller de Psicogenealogía",
+];
+
 const FinalCTASection = () => {
   return (
     <section className="section-padding bg-gradient-cta text-primary-foreground">
@@ -5,10 +11,27 @@ const FinalCTASection = () => {
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-normal mb-6">
           Tu proceso de transformación comienza con un mensaje
         </h2>
-        <p className="font-body text-lg opacity-90 mb-10 max-w-xl mx-auto">
+        <p className="font-body text-lg opacity-90 mb-8 max-w-xl mx-auto">
           No esperes más para liberarte de lo que te pesa. 
           El primer paso es el más importante y estoy aquí para acompañarte.
         </p>
+
+        {/* Cursos listing */}
+        <div className="mb-10">
+          <p className="font-body text-sm font-bold tracking-[0.2em] uppercase opacity-80 mb-4">
+            Cursos y Talleres
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {courses.map((course) => (
+              <span
+                key={course}
+                className="font-body text-sm bg-card/15 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-1.5"
+              >
+                {course}
+              </span>
+            ))}
+          </div>
+        </div>
 
         <a
           href="https://wa.me/56977929416?text=Hola%20Paola,%20quiero%20comenzar%20mi%20proceso%20de%20transformaci%C3%B3n"
