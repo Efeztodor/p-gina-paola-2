@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroBg}
-          alt="Espacio de sanación y terapias complementarias"
+          alt="Espacio de transformación y terapias complementarias"
           className="w-full h-full object-cover"
           loading="eager"
         />
