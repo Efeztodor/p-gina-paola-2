@@ -4,31 +4,31 @@ import painEmptyImg from "@/assets/pain-empty.jpg";
 import painMedicineImg from "@/assets/pain-medicine.jpg";
 
 const painPoints = [
-  {
-    emoji: "",
-    image: painEmotionsImg,
-    title: "¿Sientes que cargas con emociones que no son tuyas?",
-    desc: "Muchas veces heredamos patrones y conflictos familiares sin saberlo.",
-  },
-  {
-    emoji: "",
-    image: painCyclesImg,
-    title: "¿Repites los mismos ciclos una y otra vez?",
-    desc: "Relaciones, problemas de salud o situaciones que se repiten sin explicación.",
-  },
-  {
-    emoji: "",
-    image: painEmptyImg,
-    title: "¿Sientes un vacío o bloqueo que no logras entender?",
-    desc: "Tu cuerpo habla a través de síntomas. Hay un mensaje esperando ser escuchado.",
-  },
-  {
-    emoji: "",
-    image: painMedicineImg,
-    title: "¿La medicina tradicional no te ha dado respuestas?",
-    desc: "Las terapias complementarias abordan la causa emocional y espiritual del malestar.",
-  },
-];
+{
+  emoji: "",
+  image: painEmotionsImg,
+  title: "¿Sientes que cargas con emociones que no son tuyas?",
+  desc: "Muchas veces heredamos patrones y conflictos familiares sin saberlo."
+},
+{
+  emoji: "",
+  image: painCyclesImg,
+  title: "¿Repites los mismos ciclos una y otra vez?",
+  desc: "Relaciones, problemas de salud o situaciones que se repiten sin explicación."
+},
+{
+  emoji: "",
+  image: painEmptyImg,
+  title: "¿Sientes un vacío o bloqueo que no logras entender?",
+  desc: "Tu cuerpo habla a través de síntomas. Hay un mensaje esperando ser escuchado."
+},
+{
+  emoji: "",
+  image: painMedicineImg,
+  title: "¿La medicina tradicional no te ha dado respuestas?",
+  desc: "Las terapias complementarias abordan la causa emocional y espiritual del malestar."
+}];
+
 
 const PainPointsSection = () => {
   return (
@@ -42,21 +42,21 @@ const PainPointsSection = () => {
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6">
-          {painPoints.map((p, i) => (
-            <div
-              key={i}
-              className="relative overflow-hidden rounded-xl p-6 sm:p-8 shadow-card border border-border hover:shadow-glow transition-shadow duration-500"
-            >
-              {p.image ? (
-                <>
+          {painPoints.map((p, i) =>
+          <div
+            key={i}
+            className="relative overflow-hidden rounded-xl p-6 sm:p-8 shadow-card border border-border hover:shadow-glow transition-shadow duration-500">
+
+              {p.image ?
+            <>
                   <img
-                    src={p.image}
-                    alt=""
-                    className="absolute inset-0 w-full h-full object-cover opacity-40"
-                  />
+                src={p.image}
+                alt=""
+                className="absolute inset-0 w-full h-full object-cover opacity-40" />
+
                   <div className="absolute inset-0 bg-card/50" />
-                </>
-              ) : null}
+                </> :
+            null}
               <div className="relative z-10">
                 {p.emoji && <span className="text-3xl mb-4 block">{p.emoji}</span>}
                 <h3 className="font-display text-lg sm:text-xl font-semibold text-foreground mb-2">
@@ -67,17 +67,17 @@ const PainPointsSection = () => {
                 </p>
               </div>
             </div>
-          ))}
+          )}
         </div>
 
         <div className="text-center mt-12">
-          <p className="font-display text-xl sm:text-2xl font-semibold text-primary italic">
-            "No estás roto. Solo necesitas reconectar contigo mismo."
+          <p className="font-display text-xl sm:text-2xl font-semibold text-primary italic">"No estás roto,
+solo necesitas reconectar contigo mismo."
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default PainPointsSection;
