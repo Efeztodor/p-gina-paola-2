@@ -33,7 +33,7 @@ const plans = [
   },
   {
     name: "Pack 5 Sesiones",
-    price: "$140.000",
+    price: "$215.000",
     currency: "CLP",
     desc: "Para un proceso integral y profundo de transformación.",
     features: [
