@@ -43,9 +43,9 @@ const TransformationAreas = () => {
           <img
             src={painMedicineImg}
             alt=""
-            className="absolute inset-0 w-full h-full object-cover opacity-30"
+            className="absolute inset-0 w-full h-full object-cover opacity-50"
           />
-          <div className="absolute inset-0 bg-card/60" />
+          <div className="absolute inset-0 bg-card/40" />
 
           <div className="relative z-10 grid md:grid-cols-3 gap-6 lg:gap-8 p-6 lg:p-8">
             {areas.map((a, i) => (
