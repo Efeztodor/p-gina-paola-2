@@ -51,11 +51,11 @@ const plans = [
 
 const PricingSection = () => {
   return (
-    <section id="precios" className="section-padding bg-gradient-hero">
+    <section id="valores" className="section-padding bg-gradient-hero">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
           <span className="font-body text-xs font-bold tracking-[0.3em] uppercase text-primary mb-4 block">
-            Precios
+            Valores
           </span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4">
             Invierte en tu bienestar
@@ -115,7 +115,7 @@ const PricingSection = () => {
         </div>
 
         <p className="text-center font-body text-sm text-muted-foreground mt-8">
-          💳 Transferencia bancaria · Todos los precios en pesos chilenos
+          💳 Transferencia bancaria · Todos los valores en pesos chilenos
         </p>
       </div>
     </section>
