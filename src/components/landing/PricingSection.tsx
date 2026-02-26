@@ -17,7 +17,7 @@ const plans = [
   },
   {
     name: "Pack 3 Sesiones",
-    price: "$90.000",
+    price: "$130.000",
     currency: "CLP",
     desc: "El más elegido. Profundiza tu proceso de transformación.",
     features: [
