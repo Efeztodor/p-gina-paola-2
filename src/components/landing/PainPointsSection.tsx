@@ -1,4 +1,5 @@
 import painEmotionsImg from "@/assets/pain-emotions.png";
+import painCyclesImg from "@/assets/pain-cycles.jpg";
 
 const painPoints = [
   {
@@ -8,7 +9,8 @@ const painPoints = [
     desc: "Muchas veces heredamos patrones y conflictos familiares sin saberlo.",
   },
   {
-    emoji: "🌀",
+    emoji: "",
+    image: painCyclesImg,
     title: "¿Repites los mismos ciclos una y otra vez?",
     desc: "Relaciones, problemas de salud o situaciones que se repiten sin explicación.",
   },
