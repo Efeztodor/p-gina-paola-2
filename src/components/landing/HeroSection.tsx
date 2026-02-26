@@ -29,7 +29,7 @@ const HeroSection = () => {
 
         <p className="font-body text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
           Libera bloqueos emocionales, patrones heredados y energías que te limitan. 
-          Sesiones presenciales y online con resultados reales.
+          Sesiones presenciales y online.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.4s" }}>
