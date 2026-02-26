@@ -22,7 +22,7 @@ const HeroSection = () => {
           Terapias Complementarias
         </span>
 
-        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up text-foreground">
+        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal leading-tight mb-6 animate-fade-up text-foreground">
           Evolucionar en conciencia{" "}
           <em className="text-gradient not-italic">de lo que somos</em>
         </h1>
