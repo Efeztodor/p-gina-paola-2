@@ -31,7 +31,7 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-                Soy Ingeniera de profesión y <strong className="text-foreground">terapeuta por vocación</strong>, 
+                Soy Ingeniera de profesión y <strong className="text-foreground">terapeuta por vocación</strong>, Pinialista, 
                 con formación en Terapia de Respuesta Espiritual (TRE), Reestructuración Espiritual, 
                 Psicogenealogía y BioReprogramación.
               </p>
