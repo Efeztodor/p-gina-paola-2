@@ -10,8 +10,9 @@ const courses = [
   },
   {
     title: "Confección de Árbol de Méritos",
+    badge: "Curso Gratuito",
     description:
-      "Reconoce los méritos familiares que se toman por derecho al pertenecer a una familia, integrando y honrando los logros y fortalezas de tu linaje.",
+      "Reconoce los méritos familiares que se toman por derecho al pertenecer a una familia, integrando y honrando los logros y fortalezas de tu linaje. Buscar curso en el canal de YouTube.",
     duration: "2 horas",
     modality: "Online",
   },
@@ -43,6 +44,11 @@ const CoursesSection = () => {
               key={course.title}
               className="group rounded-2xl bg-card border border-border/50 p-8 flex flex-col hover:shadow-glow transition-shadow duration-500"
             >
+              {"badge" in course && course.badge && (
+                <span className="inline-block font-body text-xs font-bold uppercase tracking-wider text-primary bg-[hsl(48,80%,90%)] rounded-full px-3 py-1 mb-2">
+                  {course.badge}
+                </span>
+              )}
               <h3 className="font-display text-lg font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
                 {course.title}
               </h3>
