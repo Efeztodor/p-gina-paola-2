@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Sesión Individual",
-    price: "$35.000",
+    price: "$50.000",
     currency: "CLP",
     desc: "Ideal para tu primera experiencia o sesiones puntuales.",
     features: [
@@ -38,7 +38,7 @@ const plans = [
     desc: "Para un proceso integral y profundo de transformación.",
     features: [
       "5 sesiones de 60-90 minutos",
-      "Ahorra $35.000",
+      "Ahorra $50.000",
       "Presencial u online",
       "Plan terapéutico personalizado",
       "Seguimiento entre sesiones",
