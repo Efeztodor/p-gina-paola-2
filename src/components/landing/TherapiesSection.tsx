@@ -23,6 +23,7 @@ const therapies = [
     name: "Reestructuración Espiritual",
     desc: "Proceso profundo de alineación y restauración de tu estructura energética y espiritual, liberando cargas, memorias y programas que limitan tu evolución y bienestar integral.",
     color: "bg-lavender-light text-primary",
+    link: "https://www.instagram.com/p/DVO4DucEcb0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     abbr: "PG",
