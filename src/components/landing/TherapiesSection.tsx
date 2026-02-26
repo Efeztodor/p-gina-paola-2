@@ -17,6 +17,7 @@ const therapies = [
     name: "5 Leyes Biológicas",
     desc: "Comprende cómo tu cuerpo responde a los conflictos emocionales, descubriendo el sentido de cada síntoma y su proceso de transformación natural.",
     color: "bg-gold-light text-accent-foreground",
+    link: "https://www.instagram.com/p/DVPAv0FFi13/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     abbr: "RE",
