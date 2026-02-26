@@ -22,7 +22,7 @@ const plans = [
     desc: "El más elegido. Profundiza tu proceso de transformación.",
     features: [
       "3 sesiones de 90 minutos",
-      "Ahorra $15.000",
+      "Ahorra $20.000",
       "Presencial u online",
       "Informe detallado por sesión",
       "Seguimiento personalizado",
