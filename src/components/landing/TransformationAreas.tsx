@@ -11,7 +11,7 @@ const areas = [
   {
     icon: DollarSign,
     title: "Abundancia",
-    subtitle: "Libera tus bloqueos financieros",
+    subtitle: "Libera tus bloqueos al merecimiento",
     desc: "Los patrones de escasez se heredan y se repiten. Identifica las creencias limitantes que te impiden prosperar y reprograma tu relación con el dinero.",
     items: ["Deudas recurrentes", "Miedo al éxito", "Auto-sabotaje financiero", "Creencias de escasez"],
   },
