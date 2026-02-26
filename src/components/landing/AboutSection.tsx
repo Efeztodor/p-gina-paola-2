@@ -1,5 +1,5 @@
 import therapistImg from "@/assets/therapist-portrait.jpg";
-import logoCyc from "@/assets/logo-cyc.png";
+import logoPaola from "@/assets/logo-paola.png";
 
 const AboutSection = () => {
   return (
@@ -16,8 +16,8 @@ const AboutSection = () => {
                 loading="lazy"
               />
               <img
-                src={logoCyc}
-                alt="Logo Cuerpo y Consciencia"
+                src={logoPaola}
+                alt="Paola Paredes"
                 className="absolute bottom-4 right-4 w-20 sm:w-24 h-auto"
               />
             </div>
