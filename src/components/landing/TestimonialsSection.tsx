@@ -54,7 +54,7 @@ const TestimonialsSection = () => {
               </blockquote>
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="font-body font-bold text-foreground text-sm">{t.name}</p>
+                  <p className="font-display font-bold text-foreground text-sm">{t.name}</p>
                   <p className="font-body text-muted-foreground text-xs">{t.location}</p>
                 </div>
                 <span className="bg-lavender-light text-primary font-body text-xs font-semibold px-3 py-1 rounded-full">
