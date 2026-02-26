@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           <div className="sm:col-span-2 lg:col-span-1">
             <h3 className="font-display text-xl font-bold text-background mb-3">
               Paola Paredes
@@ -20,6 +20,15 @@ const Footer = () => {
               <li>5 Leyes Biológicas</li>
               <li>Reestructuración Espiritual</li>
               <li>Psicogenealogía</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-body font-bold text-background text-sm mb-4">Cursos</h4>
+            <ul className="space-y-2 font-body text-sm">
+              <li>Confección de tu Árbol Genealógico</li>
+              <li>Confección de Árbol de Méritos</li>
+              <li>Taller de Psicogenealogía</li>
             </ul>
           </div>
 
