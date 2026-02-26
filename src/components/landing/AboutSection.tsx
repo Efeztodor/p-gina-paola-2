@@ -1,4 +1,5 @@
 import therapistImg from "@/assets/therapist-portrait.jpg";
+import logoCyc from "@/assets/logo-cyc.png";
 
 const AboutSection = () => {
   return (
@@ -7,12 +8,17 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image */}
           <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-card">
+            <div className="rounded-2xl overflow-hidden shadow-card relative">
               <img
                 src={therapistImg}
                 alt="Paola Paredes, terapeuta complementaria"
                 className="w-full h-auto object-cover aspect-[3/4]"
                 loading="lazy"
+              />
+              <img
+                src={logoCyc}
+                alt="Logo Cuerpo y Consciencia"
+                className="absolute bottom-4 left-4 w-20 sm:w-24 h-auto"
               />
             </div>
           </div>
