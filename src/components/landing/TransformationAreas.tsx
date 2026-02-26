@@ -5,7 +5,7 @@ const areas = [
     icon: Heart,
     title: "Salud",
     subtitle: "Reconecta con tu salud mental, emocional y física",
-    desc: "Descubre el origen emocional de tus síntomas y enfermedades. Tu cuerpo tiene un mensaje para ti — aprende a escucharlo y activa tu proceso de sanación natural.",
+    desc: "Descubre el origen emocional, mental o espiritual de los síntomas que hoy te afectan. Tu cuerpo tiene un mensaje para ti — aprende a escucharlo y activa tu proceso de transformación natural.",
     items: ["Dolores crónicos", "Enfermedades recurrentes", "Ansiedad y estrés", "Insomnio"],
   },
   {
