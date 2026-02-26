@@ -6,7 +6,7 @@ const navLinks = [
   { label: "Terapias", href: "#terapias" },
   { label: "Sobre Mí", href: "#sobre-mi" },
   { label: "Testimonios", href: "#testimonios" },
-  { label: "Precios", href: "#precios" },
+  { label: "Valores", href: "#valores" },
   { label: "FAQ", href: "#faq" },
 ];
 
