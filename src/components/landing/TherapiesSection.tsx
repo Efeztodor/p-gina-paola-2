@@ -10,6 +10,7 @@ const therapies = [
     name: "Terapia de Respuesta Espiritual",
     desc: "Sistema de investigación espiritual que conecta con tu Yo Superior para identificar y limpiar energías discordantes y bloqueos que afectan tu bienestar.",
     color: "bg-rose-light text-secondary-foreground",
+    link: "https://www.instagram.com/p/DVO3kgxEXxT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     abbr: "5LB",
@@ -64,6 +65,16 @@ const TherapiesSection = () => {
               <p className="font-body text-sm text-muted-foreground leading-relaxed">
                 {t.desc}
               </p>
+              {"link" in t && t.link && (
+                <a
+                  href={t.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block text-center rounded-full border border-primary/30 py-2 px-5 text-sm font-body font-medium text-primary hover:bg-accent transition-colors"
+                >
+                  Más información
+                </a>
+              )}
             </div>
           ))}
 
