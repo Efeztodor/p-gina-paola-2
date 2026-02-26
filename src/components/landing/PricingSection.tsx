@@ -117,6 +117,9 @@ const PricingSection = () => {
         <p className="text-center font-body text-sm text-muted-foreground mt-8">
           💳 Transferencia bancaria · Todos los valores en pesos chilenos
         </p>
+        <p className="text-center font-body text-sm text-muted-foreground mt-2">
+          🌎 Pago con PayPal para atenciones fuera de Chile
+        </p>
       </div>
     </section>
   );
