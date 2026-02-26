@@ -36,7 +36,7 @@ const TransformationAreas = () => {
             Sana las 3 áreas esenciales de tu vida
           </h2>
           <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
-            La BioReprogramación® aborda de raíz los conflictos en salud, abundancia y relaciones
+            Las diferentes terapias buscan abordar de raíz los conflictos en salud, abundancia y relaciones
             para una transformación integral.
           </p>
         </div>
