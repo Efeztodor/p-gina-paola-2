@@ -15,10 +15,6 @@ const AboutSection = () => {
                 loading="lazy"
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-gradient-cta text-primary-foreground rounded-xl p-4 sm:p-6 shadow-glow">
-              <p className="font-display text-2xl sm:text-3xl font-bold">+8</p>
-              <p className="font-body text-xs sm:text-sm">años de<br/>experiencia</p>
-            </div>
           </div>
 
           {/* Content */}
