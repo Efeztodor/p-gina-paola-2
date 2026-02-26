@@ -1,6 +1,9 @@
+import painEmotionsImg from "@/assets/pain-emotions.png";
+
 const painPoints = [
   {
-    emoji: "😔",
+    emoji: "",
+    image: painEmotionsImg,
     title: "¿Sientes que cargas con emociones que no son tuyas?",
     desc: "Muchas veces heredamos patrones y conflictos familiares sin saberlo.",
   },
@@ -36,15 +39,27 @@ const PainPointsSection = () => {
           {painPoints.map((p, i) => (
             <div
               key={i}
-              className="bg-card rounded-xl p-6 sm:p-8 shadow-card border border-border hover:shadow-glow transition-shadow duration-500"
+              className="relative overflow-hidden rounded-xl p-6 sm:p-8 shadow-card border border-border hover:shadow-glow transition-shadow duration-500"
             >
-              <span className="text-3xl mb-4 block">{p.emoji}</span>
-              <h3 className="font-display text-lg sm:text-xl font-semibold text-foreground mb-2">
-                {p.title}
-              </h3>
-              <p className="font-body text-muted-foreground text-sm leading-relaxed">
-                {p.desc}
-              </p>
+              {p.image ? (
+                <>
+                  <img
+                    src={p.image}
+                    alt=""
+                    className="absolute inset-0 w-full h-full object-cover blur-sm opacity-25"
+                  />
+                  <div className="absolute inset-0 bg-card/70" />
+                </>
+              ) : null}
+              <div className="relative z-10">
+                {p.emoji && <span className="text-3xl mb-4 block">{p.emoji}</span>}
+                <h3 className="font-display text-lg sm:text-xl font-semibold text-foreground mb-2">
+                  {p.title}
+                </h3>
+                <p className="font-body text-muted-foreground text-sm leading-relaxed">
+                  {p.desc}
+                </p>
+              </div>
             </div>
           ))}
         </div>
