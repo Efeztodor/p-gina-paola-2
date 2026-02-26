@@ -28,7 +28,7 @@ const AboutSection = () => {
             <span className="font-body text-xs font-bold tracking-[0.3em] uppercase text-primary mb-4 block">
               Sobre Mí
             </span>
-            <h2 className="font-display text-3xl sm:text-4xl font-normal text-foreground mb-6">
+            <h2 className="font-display text-2xl sm:text-3xl font-normal text-foreground mb-6">
               Hola, soy Paola Paredes
             </h2>
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
