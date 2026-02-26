@@ -29,7 +29,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-16 sm:h-20">
         <a href="#inicio">
-          <img src={logoPaola} alt="Paola Paredes" className="h-10 sm:h-12 w-auto" />
+          <img src={logoPaola} alt="Paola Paredes" className="h-12 sm:h-14 w-auto" />
         </a>
 
         {/* Desktop */}
