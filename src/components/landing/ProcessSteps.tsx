@@ -5,7 +5,7 @@ const steps = [
     icon: MessageCircle,
     step: "01",
     title: "Conversamos",
-    desc: "Me cuentas tu situación por WhatsApp o en una breve llamada. Juntas definimos qué terapia es la mejor para tu proceso.",
+    desc: "Me cuentas tu situación por WhatsApp o en una breve llamada. Juntos definimos qué terapia es la mejor para tu proceso.",
   },
   {
     icon: Search,
