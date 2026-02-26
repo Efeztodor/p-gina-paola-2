@@ -43,7 +43,7 @@ const TherapiesSection = () => {
             Caminos hacia tu sanación
           </h2>
           <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
-            Cada terapia es un camino único. Juntas encontraremos la que mejor se ajuste a tu proceso.
+            Cada terapia es un camino único. Juntos encontraremos la que mejor se ajuste a tu proceso.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ const TherapiesSection = () => {
               ¿No sabes cuál elegir?
             </h3>
             <p className="font-body text-sm opacity-90 mb-6">
-              Conversemos y juntas encontraremos la terapia ideal para ti.
+              Conversemos y juntos encontraremos la terapia ideal para ti.
             </p>
             <a
               href="https://wa.me/56977929416?text=Hola,%20quiero%20saber%20qu%C3%A9%20terapia%20es%20la%20mejor%20para%20m%C3%AD"

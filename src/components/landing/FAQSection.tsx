@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "¿Cómo sé qué terapia necesito?",
-    a: "No te preocupes por eso. En nuestra primera conversación evaluamos juntas tu situación y te recomiendo la terapia más adecuada. Cada persona es diferente y el camino terapéutico también.",
+    a: "No te preocupes por eso. En nuestra primera conversación evaluamos juntos tu situación y te recomiendo la terapia más adecuada. Cada persona es diferente y el camino terapéutico también.",
   },
   {
     q: "¿Las sesiones online son igual de efectivas?",
