@@ -20,7 +20,7 @@ const therapies = [
   {
     abbr: "RE",
     name: "Reestructuración Espiritual",
-    desc: "Proceso profundo de alineación y restauración de tu estructura energética y espiritual, liberando cargas y memorias que limitan tu evolución.",
+    desc: "Proceso profundo de alineación y restauración de tu estructura energética y espiritual, liberando cargas, memorias y programas que limitan tu evolución y bienestar integral.",
     color: "bg-lavender-light text-primary",
   },
   {
