@@ -39,7 +39,7 @@ const TherapiesSection = () => {
           <span className="font-body text-xs font-bold tracking-[0.3em] uppercase text-primary mb-4 block">
             Mis Terapias
           </span>
-          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-normal text-foreground mb-4">
             Caminos hacia tu transformación
           </h2>
           <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
