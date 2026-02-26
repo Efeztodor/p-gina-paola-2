@@ -53,7 +53,7 @@ const HeroSection = () => {
         <div className="mt-12 flex flex-wrap items-center justify-center gap-6 text-muted-foreground font-body text-sm animate-fade-up" style={{ animationDelay: "0.6s" }}>
           <div className="flex items-center gap-2">
             <span className="text-gold text-lg">★★★★★</span>
-            <span>+200 sesiones realizadas</span>
+            <span>+3000 sesiones realizadas</span>
           </div>
           <span className="hidden sm:inline text-border">|</span>
           <span>Presencial y Online</span>
