@@ -59,11 +59,11 @@ const ProcessSteps = () => {
                 {i === 0 ? (
                   <img src={paolaWorkingImg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-75" />
                 ) : i === 1 ? (
-                  <img src={pendulumImg} alt="" className="absolute inset-0 w-full h-full object-cover blur-[0.5px] opacity-75" />
+                  <img src={pendulumImg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-75" />
                 ) : i === 2 ? (
-                  <img src={paolaReadingImg} alt="" className="absolute inset-0 w-full h-full object-cover blur-[0.5px] opacity-75" />
+                  <img src={paolaReadingImg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-75" />
                 ) : (
-                  <img src={paolaNatureImg} alt="" className="absolute inset-0 w-full h-full object-cover blur-[0.5px] opacity-75" />
+                  <img src={paolaNatureImg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-75" />
                 )}
                 <span className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-primary text-primary-foreground font-display text-sm font-bold flex items-center justify-center shadow-md">
                   {s.step}
