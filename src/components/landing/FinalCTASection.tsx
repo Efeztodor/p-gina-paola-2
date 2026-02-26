@@ -2,7 +2,7 @@ const FinalCTASection = () => {
   return (
     <section className="section-padding bg-gradient-cta text-primary-foreground">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-normal mb-6">
           Tu proceso de transformación comienza con un mensaje
         </h2>
         <p className="font-body text-lg opacity-90 mb-10 max-w-xl mx-auto">
