@@ -23,8 +23,8 @@ const HeroSection = () => {
         </span>
 
         <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up text-foreground">
-          Transforma tu vida desde{" "}
-          <em className="text-gradient not-italic">la raíz</em>
+          Evolucionar en conciencia{" "}
+          <em className="text-gradient not-italic">de lo que somos</em>
         </h1>
 
         <p className="font-body text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
