@@ -1,5 +1,6 @@
 import painEmotionsImg from "@/assets/pain-emotions.png";
 import painCyclesImg from "@/assets/pain-cycles.jpg";
+import painEmptyImg from "@/assets/pain-empty.jpg";
 
 const painPoints = [
   {
@@ -15,7 +16,8 @@ const painPoints = [
     desc: "Relaciones, problemas de salud o situaciones que se repiten sin explicación.",
   },
   {
-    emoji: "😶",
+    emoji: "",
+    image: painEmptyImg,
     title: "¿Sientes un vacío o bloqueo que no logras entender?",
     desc: "Tu cuerpo habla a través de síntomas. Hay un mensaje esperando ser escuchado.",
   },
