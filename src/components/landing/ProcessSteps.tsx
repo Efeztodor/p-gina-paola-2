@@ -39,7 +39,7 @@ const ProcessSteps = () => {
             Tu camino de sanación en 4 pasos
           </h2>
           <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
-            Un proceso claro, amoroso y guiado para que te sientas acompañada en cada etapa.
+            Un proceso claro, amoroso y guiado para que te sientas acompañado en cada etapa.
           </p>
         </div>
 
