@@ -65,7 +65,7 @@ const ProcessSteps = () => {
                 ) : (
                   <img src={paolaNatureImg} alt="" className="absolute inset-0 w-full h-full object-cover blur-[0.5px] opacity-75" />
                 )}
-                <span className="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-card border-2 border-primary text-primary font-display text-xs font-bold flex items-center justify-center">
+                <span className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-primary text-primary-foreground font-display text-sm font-bold flex items-center justify-center shadow-md">
                   {s.step}
                 </span>
               </div>
