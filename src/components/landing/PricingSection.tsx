@@ -7,7 +7,7 @@ const plans = [
     currency: "CLP",
     desc: "Ideal para tu primera experiencia o sesiones puntuales.",
     features: [
-      "1 sesión de 60-90 minutos",
+      "1 sesión de 90 minutos",
       "Presencial u online",
       "Informe post-sesión",
       "Seguimiento por WhatsApp",
@@ -21,7 +21,7 @@ const plans = [
     currency: "CLP",
     desc: "El más elegido. Profundiza tu proceso de transformación.",
     features: [
-      "3 sesiones de 60-90 minutos",
+      "3 sesiones de 90 minutos",
       "Ahorra $15.000",
       "Presencial u online",
       "Informe detallado por sesión",
@@ -37,7 +37,7 @@ const plans = [
     currency: "CLP",
     desc: "Para un proceso integral y profundo de transformación.",
     features: [
-      "5 sesiones de 60-90 minutos",
+      "5 sesiones de 90 minutos",
       "Ahorra $50.000",
       "Presencial u online",
       "Plan terapéutico personalizado",
