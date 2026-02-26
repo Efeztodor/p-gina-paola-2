@@ -58,7 +58,7 @@ const HeroSection = () => {
           <span className="hidden sm:inline text-border">|</span>
           <span>Presencial y Online</span>
           <span className="hidden sm:inline text-border">|</span>
-          <span>Chile y Latinoamérica</span>
+          <span>Chile y el mundo</span>
         </div>
       </div>
     </section>
