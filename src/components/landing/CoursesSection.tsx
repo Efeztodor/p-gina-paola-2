@@ -57,14 +57,6 @@ const CoursesSection = () => {
               </h3>
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 flex-1">
                 {course.description}
-                {"youtubeLink" in course && course.youtubeLink && (
-                  <>
-                    {" "}
-                    <a href={course.youtubeLink} target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
-                      Buscar curso en el canal de YouTube
-                    </a>
-                  </>
-                )}
               </p>
               <div className="flex flex-wrap gap-3 text-xs font-body text-muted-foreground mb-6">
                 <span className="inline-flex items-center gap-1 rounded-full bg-[hsl(48,80%,90%)] px-3 py-1">
@@ -75,12 +67,12 @@ const CoursesSection = () => {
                 </span>
               </div>
               <a
-                href="https://wa.me/56977929416?text=Hola%20Paola,%20quiero%20saber%20m%C3%A1s%20sobre%20el%20curso%20de%20" 
+                href={"youtubeLink" in course && course.youtubeLink ? course.youtubeLink : "https://wa.me/56977929416?text=Hola%20Paola,%20quiero%20saber%20m%C3%A1s%20sobre%20el%20curso%20de%20"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-center rounded-full border border-primary/30 py-2.5 text-sm font-body font-medium text-primary hover:bg-accent transition-colors"
               >
-                Más Información
+                {"youtubeLink" in course && course.youtubeLink ? "Link del curso" : "Más Información"}
               </a>
             </div>
           ))}
