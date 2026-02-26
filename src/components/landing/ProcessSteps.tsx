@@ -1,4 +1,5 @@
 import { MessageCircle, Search, Sparkles, Sun } from "lucide-react";
+import paolaWorkingImg from "@/assets/paola-working.jpg";
 
 const steps = [
   {
@@ -51,8 +52,15 @@ const ProcessSteps = () => {
                 <div className="hidden lg:block absolute top-10 left-[60%] w-[80%] h-px bg-border" />
               )}
 
-              <div className="relative inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-cta text-primary-foreground mb-5 shadow-glow">
-                <s.icon className="w-8 h-8" />
+              <div className="relative inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-cta text-primary-foreground mb-5 shadow-glow overflow-hidden">
+                {i === 1 ? (
+                  <>
+                    <img src={paolaWorkingImg} alt="" className="absolute inset-0 w-full h-full object-cover blur-[2px] opacity-60" />
+                    <s.icon className="w-8 h-8 relative z-10" />
+                  </>
+                ) : (
+                  <s.icon className="w-8 h-8" />
+                )}
                 <span className="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-card border-2 border-primary text-primary font-display text-xs font-bold flex items-center justify-center">
                   {s.step}
                 </span>
