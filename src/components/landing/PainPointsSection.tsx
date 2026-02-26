@@ -46,7 +46,7 @@ const PainPointsSection = () => {
                   <img
                     src={p.image}
                     alt=""
-                    className="absolute inset-0 w-full h-full object-cover opacity-40"
+                    className="absolute inset-0 w-full h-full object-contain object-bottom opacity-40"
                   />
                   <div className="absolute inset-0 bg-card/50" />
                 </>
