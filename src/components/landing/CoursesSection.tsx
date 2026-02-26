@@ -3,8 +3,10 @@ import { Calendar, Clock } from "lucide-react";
 const courses = [
   {
     title: "Confección de tu Árbol Genealógico",
+    badge: "Curso Gratuito",
     description:
       "Aprende a construir y analizar tu árbol genealógico como herramienta terapéutica para identificar patrones familiares, lealtades invisibles y dinámicas transgeneracionales.",
+    youtubeLink: "https://www.youtube.com/watch?v=hDpU686Wiwg",
     duration: "4 horas",
     modality: "Online y Presencial",
   },
