@@ -85,7 +85,7 @@ const PricingSection = () => {
               <p className="font-body text-sm text-muted-foreground mb-4">{p.desc}</p>
 
               <div className="mb-6">
-                <span className="font-display text-4xl font-bold text-foreground">{p.price}</span>
+                <span className="font-display text-3xl font-normal text-foreground">{p.price}</span>
                 <span className="font-body text-sm text-muted-foreground ml-1">{p.currency}</span>
               </div>
 
