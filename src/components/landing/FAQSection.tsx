@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     q: "¿Las sesiones online son igual de efectivas?",
-    a: "¡Absolutamente! La energía no conoce distancias. He trabajado con personas de toda Latinoamérica con resultados increíbles. Solo necesitas un espacio tranquilo y conexión a internet.",
+    a: "¡Absolutamente! La energía no conoce distancias. He trabajado con personas de muchos países con resultados increíbles. Solo necesitas un espacio tranquilo y conexión a internet.",
   },
   {
     q: "¿Cuántas sesiones necesito?",
