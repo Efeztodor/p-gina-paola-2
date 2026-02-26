@@ -50,10 +50,10 @@ const CoursesSection = () => {
                 {course.description}
               </p>
               <div className="flex flex-wrap gap-3 text-xs font-body text-muted-foreground mb-6">
-                <span className="inline-flex items-center gap-1 rounded-full bg-accent px-3 py-1">
+                <span className="inline-flex items-center gap-1 rounded-full bg-[hsl(48,80%,90%)] px-3 py-1">
                   <Clock size={12} /> {course.duration}
                 </span>
-                <span className="inline-flex items-center gap-1 rounded-full bg-accent px-3 py-1">
+                <span className="inline-flex items-center gap-1 rounded-full bg-[hsl(48,80%,90%)] px-3 py-1">
                   <Calendar size={12} /> {course.modality}
                 </span>
               </div>
