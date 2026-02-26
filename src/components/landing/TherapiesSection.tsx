@@ -32,6 +32,7 @@ const therapies = [
     name: "Psicogenealogía",
     desc: "Explora tu árbol genealógico para identificar y liberar patrones heredados, lealtades invisibles y conflictos transgeneracionales que impactan tu vida actual.",
     color: "bg-rose-light text-secondary-foreground",
+    link: "https://www.instagram.com/p/DVPGXIrkd9o/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
 ];
 
