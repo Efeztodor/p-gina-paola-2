@@ -1,6 +1,7 @@
 import painEmotionsImg from "@/assets/pain-emotions.png";
 import painCyclesImg from "@/assets/pain-cycles.jpg";
 import painEmptyImg from "@/assets/pain-empty.jpg";
+import painMedicineImg from "@/assets/pain-medicine.jpg";
 
 const painPoints = [
   {
@@ -22,7 +23,8 @@ const painPoints = [
     desc: "Tu cuerpo habla a través de síntomas. Hay un mensaje esperando ser escuchado.",
   },
   {
-    emoji: "💭",
+    emoji: "",
+    image: painMedicineImg,
     title: "¿La medicina tradicional no te ha dado respuestas?",
     desc: "Las terapias complementarias abordan la causa emocional y espiritual del malestar.",
   },
