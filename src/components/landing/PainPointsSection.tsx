@@ -34,7 +34,7 @@ const PainPointsSection = () => {
   return (
     <section className="section-padding bg-gradient-hero">
       <div className="max-w-5xl mx-auto">
-        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-center text-foreground mb-4">
+        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-normal text-center text-foreground mb-4">
           ¿Te identificas con algo de esto?
         </h2>
         <p className="font-body text-center text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
