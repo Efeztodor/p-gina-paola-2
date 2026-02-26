@@ -41,9 +41,9 @@ const CoursesSection = () => {
           {courses.map((course, index) => (
             <div
               key={course.title}
-              className="rounded-2xl bg-card border border-border/50 p-8 flex flex-col hover:shadow-glow transition-shadow duration-500"
+              className="group rounded-2xl bg-card border border-border/50 p-8 flex flex-col hover:shadow-glow transition-shadow duration-500"
             >
-              <h3 className="font-display text-xl font-bold text-foreground mb-3">
+              <h3 className="font-display text-lg font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
                 {course.title}
               </h3>
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 flex-1">
