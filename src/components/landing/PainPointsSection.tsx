@@ -51,7 +51,7 @@ const PainPointsSection = () => {
 
         <div className="text-center mt-12">
           <p className="font-display text-xl sm:text-2xl font-semibold text-primary italic">
-            "No estás rota. Solo necesitas reconectar contigo misma."
+            "No estás roto. Solo necesitas reconectar contigo mismo."
           </p>
         </div>
       </div>
