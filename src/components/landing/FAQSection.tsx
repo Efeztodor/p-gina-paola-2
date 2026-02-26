@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: "¿Cómo es una sesión típica?",
-    a: "Dura entre 60 y 90 minutos. Comenzamos conversando sobre tu situación actual, luego aplicamos la técnica terapéutica correspondiente. Al final, te entrego un resumen y recomendaciones.",
+    a: "Dura 90 minutos. Comenzamos conversando sobre tu situación actual, luego aplicamos la técnica terapéutica correspondiente. Al final, te entrego un resumen y recomendaciones.",
   },
   {
     q: "¿Qué métodos de pago aceptan?",
