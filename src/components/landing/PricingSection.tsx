@@ -38,7 +38,7 @@ const plans = [
     desc: "Para un proceso integral y profundo de transformación.",
     features: [
       "5 sesiones de 90 minutos",
-      "Ahorra $50.000",
+      "Ahorra $40.000",
       "Presencial u online",
       "Plan terapéutico personalizado",
       "Seguimiento entre sesiones",
