@@ -4,6 +4,7 @@ const therapies = [
     name: "BioReprogramación",
     desc: "Transforma creencias limitantes y patrones emocionales profundos para reprogramar tu biología y activar tu capacidad natural de transformación.",
     color: "bg-lavender-light text-primary",
+    link: "https://www.instagram.com/p/DVPEQEcEfdb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
   },
   {
     abbr: "TRE",
