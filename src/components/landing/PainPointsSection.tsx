@@ -8,7 +8,7 @@ const painPoints = [
     desc: "Muchas veces heredamos patrones y conflictos familiares sin saberlo.",
   },
   {
-    emoji: "🔄",
+    emoji: "🌀",
     title: "¿Repites los mismos ciclos una y otra vez?",
     desc: "Relaciones, problemas de salud o situaciones que se repiten sin explicación.",
   },
