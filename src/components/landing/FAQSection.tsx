@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "¿Qué métodos de pago aceptan?",
-    a: "Transferencia bancaria y efectivo (en sesiones presenciales). Los pagos se realizan previo a la sesión.",
+    a: "Transferencia bancaria y efectivo (en sesiones presenciales), o a través de PayPal si estás fuera de Chile. Los pagos se realizan previo a la sesión.",
   },
 ];
 
