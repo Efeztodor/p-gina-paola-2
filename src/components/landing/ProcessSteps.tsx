@@ -1,5 +1,6 @@
 import { MessageCircle, Search, Sparkles, Sun } from "lucide-react";
 import paolaWorkingImg from "@/assets/paola-working.jpg";
+import pendulumImg from "@/assets/pendulum.jpg";
 
 const steps = [
   {
@@ -55,6 +56,8 @@ const ProcessSteps = () => {
               <div className="relative inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-cta text-primary-foreground mb-5 shadow-glow overflow-hidden">
                 {i === 0 ? (
                   <img src={paolaWorkingImg} alt="" className="absolute inset-0 w-full h-full object-cover blur-[2px] opacity-60" />
+                ) : i === 1 ? (
+                  <img src={pendulumImg} alt="" className="absolute inset-0 w-full h-full object-cover blur-[2px] opacity-60" />
                 ) : (
                   <s.icon className="w-8 h-8" />
                 )}
