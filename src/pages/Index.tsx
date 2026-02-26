@@ -5,6 +5,7 @@ import TransformationAreas from "@/components/landing/TransformationAreas";
 import ProcessSteps from "@/components/landing/ProcessSteps";
 import AboutSection from "@/components/landing/AboutSection";
 import TherapiesSection from "@/components/landing/TherapiesSection";
+import CoursesSection from "@/components/landing/CoursesSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import PricingSection from "@/components/landing/PricingSection";
 import FAQSection from "@/components/landing/FAQSection";
@@ -23,6 +24,7 @@ const Index = () => {
         <ProcessSteps />
         <AboutSection />
         <TherapiesSection />
+        <CoursesSection />
         <TestimonialsSection />
         <PricingSection />
         <FAQSection />
