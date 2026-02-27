@@ -11,7 +11,7 @@ const AboutSection = () => {
               <img
                 src={therapistImg}
                 alt="Paola Paredes, terapeuta complementaria"
-                className="rounded-2xl shadow-xl w-full aspect-square object-cover"
+                className="rounded-2xl shadow-xl w-full aspect-[3/4] object-cover object-center"
                 loading="lazy"
               />
               <img
