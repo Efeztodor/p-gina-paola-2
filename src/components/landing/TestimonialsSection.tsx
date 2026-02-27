@@ -8,7 +8,7 @@ const testimonials = [
   {
     name: "Fernanda R.",
     location: "Concepción, Chile",
-    text: "La psicogenealogía me abrió los ojos. Descubrí lealtades familiares que me estaban frenando sin darme cuenta. Increíble experiencia.",
+    text: "Al realizar el árbol genealógico con Paola descubrí que muchas de mis emociones estaban ligadas a experiencias familiares, lo que me permitió comprenderlas y comenzar a liberarme de esas cargas heredadas. Increíble experiencia.",
     therapy: "Psicogenealogía",
   },
   {
