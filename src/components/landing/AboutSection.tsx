@@ -3,16 +3,15 @@ import logoPaola from "@/assets/logo-paola.png";
 
 const AboutSection = () => {
   return (
-    <section id="sobre-mi" className="section-padding bg-background">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Image */}
-          <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-card relative">
+    <section id="sobre-mi" className="py-24 bg-lavender-light">
+      <div className="container mx-auto px-4">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <div className="relative">
               <img
                 src={therapistImg}
                 alt="Paola Paredes, terapeuta complementaria"
-                className="w-full h-auto object-cover aspect-[4/5] max-h-[500px]"
+                className="rounded-2xl shadow-xl w-full aspect-square object-cover"
                 loading="lazy"
               />
               <img
@@ -23,35 +22,35 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Content */}
           <div>
-            <span className="font-body text-xs font-bold tracking-[0.3em] uppercase text-primary mb-4 block">
+            <p className="font-body text-xs font-bold tracking-[0.3em] uppercase text-primary mb-3">
               Sobre Mí
-            </span>
-            <h2 className="font-display text-2xl sm:text-3xl font-normal text-foreground mb-6">
-              Hola, soy Paola Paredes
+            </p>
+            <h2 className="font-display text-3xl md:text-4xl font-normal mb-6 leading-tight text-foreground">
+              Hola, soy{" "}
+              <span className="text-primary font-medium italic">
+                Paola Paredes
+              </span>
             </h2>
-            <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
-              <p>
-                Soy Ingeniera de profesión y <strong className="text-foreground">terapeuta por vocación</strong>, Pinialista, 
-                con formación en Terapia de Respuesta Espiritual (TRE), Reestructuración Espiritual, 
-                Psicogenealogía y BioReprogramación.
-              </p>
-              <p>
-                Cuento además con conocimiento en <strong className="text-foreground">5 Leyes Biológicas</strong>, 
-                una maravillosa forma de comprender el cuerpo y sus mensajes.
-              </p>
-              <p>
-                Estoy para acompañarte en tu proceso de cambio y mejora en tu vida y la de tu entorno, 
-                a través de las distintas terapias según lo que requieras.
-              </p>
-            </div>
+            <p className="font-body text-muted-foreground leading-relaxed mb-4">
+              Soy Ingeniera de profesión y <strong className="text-foreground">terapeuta por vocación</strong>, Pinialista,
+              con formación en Terapia de Respuesta Espiritual (TRE), Reestructuración Espiritual,
+              Psicogenealogía y BioReprogramación. Cuento además con conocimiento en{" "}
+              <strong className="text-foreground">5 Leyes Biológicas</strong>, una maravillosa forma de comprender el cuerpo y sus mensajes.
+            </p>
+            <p className="font-body text-muted-foreground leading-relaxed mb-4">
+              Estoy para acompañarte en tu proceso de cambio y mejora en tu vida y la de tu entorno,
+              a través de las distintas terapias según lo que requieras.
+            </p>
+            <p className="font-body text-muted-foreground leading-relaxed mb-8">
+              Las terapias pueden ser de manera presencial u online.
+            </p>
 
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
               {["TRE", "BioReprogramación", "Psicogenealogía", "5 Leyes Biológicas", "Reestructuración Espiritual"].map((tag) => (
                 <span
                   key={tag}
-                  className="bg-lavender-light text-primary font-body text-xs font-semibold px-4 py-2 rounded-full"
+                  className="bg-lavender-light text-primary font-body text-xs font-semibold px-4 py-2 rounded-full border border-primary/20"
                 >
                   {tag}
                 </span>
