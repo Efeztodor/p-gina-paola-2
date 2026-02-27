@@ -6,7 +6,7 @@ const testimonials = [
     therapy: "BioReprogramación",
   },
   {
-    name: "Fernanda R.",
+    name: "Marcela O.",
     location: "Concepción, Chile",
     text: "Al realizar el árbol genealógico con Paola descubrí que muchas de mis emociones estaban ligadas a experiencias familiares, lo que me permitió comprenderlas y comenzar a liberarme de esas cargas heredadas. Increíble experiencia.",
     therapy: "Psicogenealogía",
