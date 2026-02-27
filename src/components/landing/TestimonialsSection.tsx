@@ -7,7 +7,7 @@ const testimonials = [
   },
   {
     name: "Marcela O.",
-    location: "Concepción, Chile",
+    location: "Santiago, Chile",
     text: "Al realizar el árbol genealógico con Paola descubrí que muchas de mis emociones estaban ligadas a experiencias familiares, lo que me permitió comprenderlas y comenzar a liberarme de esas cargas heredadas. Increíble experiencia.",
     therapy: "Psicogenealogía",
   },
