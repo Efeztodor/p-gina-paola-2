@@ -23,6 +23,12 @@ const testimonials = [
     text: "Llegué con dolores crónicos que nadie podía explicar. Con las 5 leyes biológicas entendí lo que mi cuerpo me decía. Fue transformador.",
     therapy: "5 Leyes Biológicas",
   },
+  {
+    name: "Javiera P.",
+    location: "Santiago, Chile",
+    text: "La reestructuración espiritual con Paola me ayudó a reconectar con mi esencia. Sentí un alivio profundo y una claridad que no había experimentado antes.",
+    therapy: "Reestructuración Espiritual",
+  },
 ];
 
 const TestimonialsSection = () => {
