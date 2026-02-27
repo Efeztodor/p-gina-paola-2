@@ -1,4 +1,5 @@
-import { Check } from "lucide-react";
+import { useState } from "react";
+import { Check, ChevronDown, ChevronUp } from "lucide-react";
 
 const plans = [
   {
@@ -50,22 +51,35 @@ const plans = [
 ];
 
 const PricingSection = () => {
+  const [showPlans, setShowPlans] = useState(false);
+
   return (
     <section id="valores" className="section-padding bg-gradient-hero">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-14">
+        <div className="text-center mb-10">
           <span className="font-body text-xs font-bold tracking-[0.3em] uppercase text-primary mb-4 block">
             Valores
           </span>
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-normal text-foreground mb-4">
             Invierte en tu bienestar
           </h2>
-          <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto">
+          <p className="font-body text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
             Elige la opción que mejor se adapte a tu proceso. Todos los planes incluyen atención personalizada.
           </p>
+          <button
+            onClick={() => setShowPlans(!showPlans)}
+            className="inline-flex items-center gap-2 bg-gradient-cta text-primary-foreground font-body font-bold text-sm px-8 py-3.5 rounded-full hover:opacity-90 transition-all"
+          >
+            {showPlans ? "Ocultar Valores" : "Ver Valores"}
+            {showPlans ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+        <div
+          className={`grid md:grid-cols-3 gap-6 lg:gap-8 transition-all duration-500 overflow-hidden ${
+            showPlans ? "max-h-[2000px] opacity-100 mt-4" : "max-h-0 opacity-0"
+          }`}
+        >
           {plans.map((p, i) => (
             <div
               key={i}
@@ -114,12 +128,16 @@ const PricingSection = () => {
           ))}
         </div>
 
-        <p className="text-center font-body text-sm text-muted-foreground mt-8">
-          💳 Transferencia bancaria · Todos los valores en pesos chilenos
-        </p>
-        <p className="text-center font-body text-sm text-muted-foreground mt-2">
-          🌎 Pago con PayPal para atenciones fuera de Chile
-        </p>
+        {showPlans && (
+          <>
+            <p className="text-center font-body text-sm text-muted-foreground mt-8">
+              💳 Transferencia bancaria · Todos los valores en pesos chilenos
+            </p>
+            <p className="text-center font-body text-sm text-muted-foreground mt-2">
+              🌎 Pago con PayPal para atenciones fuera de Chile
+            </p>
+          </>
+        )}
       </div>
     </section>
   );
