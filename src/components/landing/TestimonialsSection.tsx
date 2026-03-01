@@ -2,8 +2,8 @@ const testimonials = [
   {
     name: "Carolina M.",
     location: "Santiago, Chile",
-    text: "Después de años cargando con angustia y repitiendo patrones, las sesiones con Paola me ayudaron a entender y soltar. Hoy me siento liviana y en paz.",
-    therapy: "BioReprogramación",
+    text: "Quiero recomendar profundamente el trabajo de Paola Paredes. En un momento muy desafiante de mi vida, cuando me sentía emocionalmente dispersa y estaba atravesando ataques de pánico, decidí tomar varias sesiones con ella de terapia TRE y terapia de respuesta espiritual. Desde el primer encuentro me sentí acompañada con respeto, sensibilidad y una presencia muy humana. Paola crea un espacio seguro donde una puede abrirse sin miedo, sintiéndose comprendida y sostenida en todo momento. Las sesiones de TRE me ayudaron a liberar tensiones acumuladas en el cuerpo que ni siquiera sabía que estaban allí, y poco a poco comencé a sentir más calma y estabilidad. La terapia de respuesta espiritual, por su parte, me permitió tomar conciencia de patrones internos y creencias que estaban influyendo en mi ansiedad. Fue un proceso profundo pero a la vez muy amoroso. Gracias a su acompañamiento logré volver a mi centro, recuperar claridad mental y sentirme más enraizada. Su trabajo es serio, profesional y a la vez lleno de empatía y vocación genuina de ayuda. Recomiendo a Paola con total confianza a cualquier persona que esté pasando por momentos de ansiedad, bloqueo emocional o búsqueda personal. Es una terapeuta comprometida y verdaderamente transformadora.",
+    therapy: "TRE y Respuesta Espiritual",
   },
   {
     name: "Marcela O.",
