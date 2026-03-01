@@ -17,6 +17,7 @@ const AboutSection = () => {
               <img
                 src={logoPaola}
                 alt="Paola Paredes"
+                loading="lazy"
                 className="absolute bottom-4 right-4 w-56 sm:w-60 h-auto"
               />
             </div>
