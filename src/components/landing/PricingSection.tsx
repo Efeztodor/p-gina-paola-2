@@ -76,8 +76,8 @@ const PricingSection = () => {
         </div>
 
         <div
-          className={`grid md:grid-cols-3 gap-6 lg:gap-8 pt-4 transition-all duration-500 overflow-hidden ${
-            showPlans ? "max-h-[2000px] opacity-100 mt-4" : "max-h-0 opacity-0"
+          className={`grid md:grid-cols-3 gap-6 lg:gap-8 pt-6 transition-all duration-500 overflow-visible ${
+            showPlans ? "max-h-[2000px] opacity-100 mt-4" : "max-h-0 opacity-0 overflow-hidden"
           }`}
         >
           {plans.map((p, i) => (
