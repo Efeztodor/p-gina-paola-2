@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const testimonials = [
   {
     name: "Carolina M.",
@@ -31,6 +33,58 @@ const testimonials = [
   },
 ];
 
+function splitAtSecondPeriod(text: string): { preview: string; rest: string } | null {
+  let count = 0;
+  for (let i = 0; i < text.length; i++) {
+    if (text[i] === ".") {
+      count++;
+      if (count === 2) {
+        return {
+          preview: text.slice(0, i + 1),
+          rest: text.slice(i + 1).trim(),
+        };
+      }
+    }
+  }
+  return null;
+}
+
+const TestimonialCard = ({ t }: { t: typeof testimonials[number] }) => {
+  const [expanded, setExpanded] = useState(false);
+  const split = splitAtSecondPeriod(t.text);
+  const isLong = split !== null && split.rest.length > 0;
+
+  return (
+    <div className="bg-card rounded-xl p-6 sm:p-8 border border-border shadow-soft">
+      <div className="flex items-center gap-1 text-gold mb-4">
+        {"★★★★★".split("").map((s, j) => (
+          <span key={j} className="text-lg">{s}</span>
+        ))}
+      </div>
+      <blockquote className="font-body text-foreground leading-relaxed mb-4 italic">
+        "{isLong ? (expanded ? t.text : split!.preview) : t.text}"
+      </blockquote>
+      {isLong && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="font-body text-primary text-sm font-semibold hover:underline mb-4 transition-colors"
+        >
+          {expanded ? "Leer menos" : "Leer más"}
+        </button>
+      )}
+      <div className="flex items-center justify-between">
+        <div>
+          <p className="font-display font-bold text-foreground text-sm">{t.name}</p>
+          <p className="font-body text-muted-foreground text-xs">{t.location}</p>
+        </div>
+        <span className="bg-lavender-light text-primary font-body text-xs font-semibold px-3 py-1 rounded-full">
+          {t.therapy}
+        </span>
+      </div>
+    </div>
+  );
+};
+
 const TestimonialsSection = () => {
   return (
     <section id="testimonios" className="section-padding bg-background">
@@ -46,28 +100,7 @@ const TestimonialsSection = () => {
 
         <div className="grid sm:grid-cols-2 gap-6">
           {testimonials.map((t, i) => (
-            <div
-              key={i}
-              className="bg-card rounded-xl p-6 sm:p-8 border border-border shadow-soft"
-            >
-              <div className="flex items-center gap-1 text-gold mb-4">
-                {"★★★★★".split("").map((s, j) => (
-                  <span key={j} className="text-lg">{s}</span>
-                ))}
-              </div>
-              <blockquote className="font-body text-foreground leading-relaxed mb-6 italic">
-                "{t.text}"
-              </blockquote>
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="font-display font-bold text-foreground text-sm">{t.name}</p>
-                  <p className="font-body text-muted-foreground text-xs">{t.location}</p>
-                </div>
-                <span className="bg-lavender-light text-primary font-body text-xs font-semibold px-3 py-1 rounded-full">
-                  {t.therapy}
-                </span>
-              </div>
-            </div>
+            <TestimonialCard key={i} t={t} />
           ))}
         </div>
       </div>
