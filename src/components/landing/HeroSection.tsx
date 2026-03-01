@@ -18,14 +18,17 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center pt-20">
+        <h1 className="sr-only">Paola Paredes</h1>
+        <h2 className="sr-only">Terapias Complementarias</h2>
+
         <span className="inline-block font-body text-xs sm:text-sm font-bold tracking-[0.3em] uppercase text-primary mb-6 animate-fade-in">
           Terapias Complementarias
         </span>
 
-        <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-6 animate-fade-up text-foreground">
+        <p className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-tight mb-6 animate-fade-up text-foreground">
           Evolucionar en conciencia{" "}
           <em className="text-gradient not-italic">de lo que somos</em>
-        </h1>
+        </p>
 
         <p className="font-body text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
           Libera bloqueos emocionales, patrones heredados y energías que te limitan. 
