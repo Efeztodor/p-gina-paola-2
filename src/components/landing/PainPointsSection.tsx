@@ -52,6 +52,7 @@ const PainPointsSection = () => {
                   <img
                 src={p.image}
                 alt=""
+                loading="lazy"
                 className="absolute inset-0 w-full h-full object-cover opacity-40" />
 
                   <div className="absolute inset-0 bg-card/50" />

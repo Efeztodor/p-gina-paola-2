@@ -43,6 +43,7 @@ const TransformationAreas = () => {
           <img
             src={painMedicineImg}
             alt=""
+            loading="lazy"
             className="absolute inset-0 w-full h-full object-cover opacity-50"
           />
           <div className="absolute inset-0 bg-card/40" />
