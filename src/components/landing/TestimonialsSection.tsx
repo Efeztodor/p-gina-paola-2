@@ -55,13 +55,13 @@ const TestimonialCard = ({ t }: { t: typeof testimonials[number] }) => {
   const isLong = split !== null && split.rest.length > 50;
 
   return (
-    <div className="bg-card rounded-xl p-6 sm:p-8 border border-border shadow-soft">
+    <div className="bg-card rounded-xl p-6 sm:p-8 border border-border shadow-soft flex flex-col">
       <div className="flex items-center gap-1 text-gold mb-4">
         {"★★★★★".split("").map((s, j) => (
           <span key={j} className="text-lg">{s}</span>
         ))}
       </div>
-      <blockquote className="font-body text-foreground leading-relaxed mb-4 italic">
+      <blockquote className="font-body text-foreground leading-relaxed mb-4 italic flex-grow">
         "{isLong ? (expanded ? t.text : split!.preview) : t.text}"
       </blockquote>
       {isLong && (
@@ -72,7 +72,7 @@ const TestimonialCard = ({ t }: { t: typeof testimonials[number] }) => {
           {expanded ? "Leer menos" : "Leer más"}
         </button>
       )}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mt-auto">
         <div>
           <p className="font-display font-bold text-foreground text-sm">{t.name}</p>
           <p className="font-body text-muted-foreground text-xs">{t.location}</p>
