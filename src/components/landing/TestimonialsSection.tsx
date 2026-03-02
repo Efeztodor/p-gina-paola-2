@@ -52,7 +52,7 @@ function splitAtSecondPeriod(text: string): { preview: string; rest: string } | 
 const TestimonialCard = ({ t }: { t: typeof testimonials[number] }) => {
   const [expanded, setExpanded] = useState(false);
   const split = splitAtSecondPeriod(t.text);
-  const isLong = split !== null && split.rest.length > 0;
+  const isLong = split !== null && split.rest.length > 50;
 
   return (
     <div className="bg-card rounded-xl p-6 sm:p-8 border border-border shadow-soft">
