@@ -50,8 +50,13 @@ const FAQSection = () => {
               className="bg-card rounded-xl border border-border overflow-hidden"
             >
               <button
-                onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                className="w-full flex items-center justify-between p-5 sm:p-6 text-left"
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setOpenIndex(openIndex === i ? null : i);
+                }}
+                className="w-full flex items-center justify-between p-5 sm:p-6 text-left relative z-10"
               >
                 <span className="font-body font-bold text-foreground text-sm sm:text-base pr-4">
                   {faq.q}
